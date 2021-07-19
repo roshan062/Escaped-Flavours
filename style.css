@@ -1,0 +1,175 @@
+
+/* Font Families available to use:-
+
+font-family: 'Montserrat', sans-serif;
+ font-family: 'IBM Plex Serif', serif;
+font-family: 'Nunito', sans-serif; */
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat-thin', sans-serif;
+    
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+/* Gradient For Header of the Site */
+.grad1 {
+    background-image: linear-gradient(to bottom right, #08D9D6, #FF2E63) ;
+}
+.navbar-grad {
+    background-image: linear-gradient(to bottom right, #4bc2c0,#08D9D6)  ;
+}
+
+
+
+.top-heading {
+    color: ivory;
+}
+
+.title-line {
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 15px 10px 15px 0px;
+    margin-right: 14px;
+}
+
+.title-image {
+    width: 84%;
+    height: 98%;
+    margin-left: 10%;
+    padding-top: 4rem;
+    padding-bottom: 5.2rem;
+}
+
+.download-btn {
+    width: 80%;
+    
+}
+
+.download-icon {
+    width: 50%; 
+    height: 60%
+}
+
+.features {
+background-color: #F9F9F9;
+text-align: center;
+
+}
+
+.feature-box {
+    padding: 1% 5% 3% 5%;
+}
+
+.features-icon {
+    padding-bottom: 5%;
+    height: 52%;
+    width: 40%;
+}
+
+p {
+    color: #5F939A;
+}
+
+.corousel-section {
+    /* padding: 8% 9% 10% 25%; */
+    padding: 5% 0;
+    background-color: #52bd72;
+    background-image: radial-gradient(#defcf9, #99ddcc)
+}
+
+.card-container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.card-row {
+    padding: 2% 5% 11% 5%;
+    background-color: #F9F9F9;
+}
+
+.full-card {
+    margin-top: 10%; 
+}
+
+.card-header{
+background-color: #ddf8f4;
+color:teal;
+font-family: 'Montserrat-bold', sans-serif;
+padding-top: 5%;
+}
+
+.card-body-section {
+    text-align: left;
+    background-color: #e4f7f3;
+    color:teal;
+    
+}
+
+.card-footer {
+    background-color: #50CB93;
+}
+
+.card-footer:hover {
+    background-color: #11aa68;
+   
+}
+
+.card-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+
+.quote-section {
+    color: #548CA8;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 5% 15% 10% 15%;
+    background-color: #F9F9F9;
+    background-image: linear-gradient(to bottom right, #F9F9F9, #ebeeec);
+}
+
+
+/* @media screen and (max-width: 110px) {
+    .quote-section {text-align: left;}
+} */
+
+
+.footer-heading {
+    color: white;
+     padding: 1% 1% 0% 1%;
+     font-family: 'Nunito', sans-serif; 
+}
+
+.footer {
+    text-align: center;
+    padding: 1% 10% 1% 10%;
+    background-color: #1fc4ae;
+    background-image: linear-gradient(to bottom right, #1fc4ae, #548CA8,  #c7e6e1);
+    
+
+}
+
+.social-icons {
+    margin: 4% 1% 3% 1%;
+    height: 2%;
+    width: 2%;
+}
+
+.copyright {
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+}
